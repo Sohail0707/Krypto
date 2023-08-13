@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body {
+    background-color: #090132;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+}
+/* Common Element Editing */
+
+/* Editing nav bar */
+.navBar {
+    width: 1066px;
+    display: flex;
+    justify-content: space-between;
+    margin: 39px auto 140px auto;
+}
+
+.krypto {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.links {
+    display: flex;
+    gap: 83px;
+}
+
+a:link:visited, a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: block;
+}
+
+/* Editing Hero section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    width: 1066px;
+    margin: 0 auto 151px auto;
+}
+
+.heroHeading {
+    font-size: 87px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 29px 0 33px 0;
+}
+
+.bodyText {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 27.5px;
+    width: 373px;
+    margin-bottom: 34px;
+}
+
+.buyButton, .sellButton {
+    display: inline-block;
+    width: 255px;
+    height: 68px;
+    letter-spacing:5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    border-radius: 70px;
+}
+
+.buyButton {
+    background-color: #8080D7;
+    margin-right: 15px;
+    padding: 25px;
+}
+
+.sellButton {
+    border: 1px solid #AAD9D9;
+    padding: 22px;
+}
+
+.heroImg {
+    width: 525px;
+    height: 503px;
+}
+
+/* Editing Logos */
+.subText {
+    margin: 0 auto 13px auto;
+    letter-spacing:5px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #AAD9D9;
+}
+
+.subText1 {
+    width: 1066px;
+}
+
+.logos {
+    width: 1066px;
+    height: 101px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 138px;
+    background-color: rgba(101, 91, 189, 0.19);
+    border-radius: 7px;
+}
+
+.logo1 {
+    width: 168px;
+    height: 65px;
+}
+
+.logo2 {
+    width: 150px;
+    height: 24px;
+}
+
+.logo3 {
+    width: 60px;
+    height: 34px;
+}
+
+.logo4 {
+    width: 102px;
+    height: 28px;
+}
+
+/* Editing analytics */
+.analytics {
+    display: flex;
+    justify-content: space-between;
+    width: 1066px;
+    margin: 175px auto 65px auto;
+}
+
+.analyticsImg {
+    width: 495px;
+    height: 476px;
+}
+
+.analytics .subText {
+    margin: 68px 0 0 0;
+}
+
+h2 {
+    font-size: 57px;
+    text-transform: capitalize;
+    width: 525px;
+    font-weight: bold;
+    line-height: 70px;
+    margin-bottom: 11px;
+}
+
+.featureText .bodyText {
+    margin-bottom: 11px;
+}
+
+.pricingButton {
+    display: inline-block;
+    height: 68px;
+    width: 356px;
+    letter-spacing:5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    border-radius: 70px;
+    background-color: #8080D7;
+    padding: 25px;
+}
+
+/* Editing  getfeature*/
+.getApp {
+    display: flex;
+    justify-content: space-between;
+    width: 988px;
+    margin: 0 auto 187px auto;
+}
+
+.subText3 {
+    margin-top: 55px;
+}
+
+.getAppImg {
+    height: 409px;
+    width: 409px;
+}
+
+/* Editing testimonian */
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1066px;
+    margin: 0 auto 69px auto;
+}
+
+.testimonial h2 {
+    text-align: center;
+}
+
+.testimonialItemContainer {
+    display: flex;
+    margin-top: 102px;
+    width: 1063px;
+    justify-content: space-between;
+}
+
+.testimonialItem {
+    width: 345px;
+    height: 245px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: rgba(101, 91, 189, 0.19);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.testimonialItem .subText {
+    color: white;
+    margin: 88px 0 22px 0;
+}
+
+.testiminialText {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 21px;
+    width: 298px;
+}
+
+.imgClip {
+    height: 120px;
+    width: 120px;
+    background-color: #090132;
+    border-radius: 70px;
+    position: absolute;
+    top: -50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    overflow: hidden;
+}
+
+.imgClip img {
+    mix-blend-mode: luminosity;
+    height: 120px;
+    
+}
+
+/* Call to action */
+
+.callToAction {
+    background-image: linear-gradient(to left top, #81add4, #3938b7);
+    width: 1065px;
+    height: 380px;
+    border-radius: 20px;
+    margin: 0 auto 82px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.callToAction .subText {
+    margin-top: 45px;
+    color: black;
+    font-weight: bold;
+}
+
+.callToAction h2 {
+    text-align: center;
+    margin-top: 27px;
+}
+
+.callToAction .pricingButton {
+    background-color: black;
+    width: 295px;
+    margin-top: 27px;
+}
+
+/* Editing footer */
+.footer {
+    display: flex;
+    width: 1066px;
+    margin: 0 auto 66px auto;
+    justify-content: space-between;
+}
+
+.sec a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 31px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.sec p {
+    font-family: 'Outfit', sans-serif;
+    margin-bottom: 19px;
+}
+
+.sec4 {
+    text-transform: lowercase;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.email {
+    position: relative;
+}
+
+.email .pricingButton {
+    height: 38px;
+    width: 118px;
+    font-size: 14px;
+    padding: 13px;
+    letter-spacing: 3px;
+    position: absolute;
+    right: 3px;
+    top: 3.2px;
+}
+
+input[type=email] {
+    height: 44px;
+    width: 345px;
+    border-radius: 70px;
+    background-color: rgba(101, 91, 189, 0.19);
+    border: none;
+    color: white;
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+input[type=email]::placeholder {
+    padding-left: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+.end {
+    height: 11px;
+    background-image: linear-gradient(to left top, #81add4, #3938b7);
+}
+
+.buyButton:hover, .sellButton:hover, .pricingButton:hover {
+    cursor: pointer;
+}
+
+.circle {
+    height: 600px;
+    width: 600px;
+    background-color: #baaad9bd;
+    filter: blur(200px);
+    position: absolute;
+    z-index: 0;
+}
+
+.circle1 {
+    left: 98px;
+    top: -382px;
+    background-color: #80d1d7a4;
+}
+
+.circle2 {
+    top: 395px;
+    right: -382px;
+}
+
+.navBar, .hero, .logos {
+    z-index: 2;
+}
